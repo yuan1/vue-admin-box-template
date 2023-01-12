@@ -1,6 +1,6 @@
 ## vue-admin-box-template
 
-vue-admin-box中后台开源框架基础模板
+vue-admin-box 中后台开源框架基础模板
 
 基于 https://github.com/cmdparkour/vue-admin-box-template/tree/master/js
 升级 element-plus 等版本，优化兼容性
