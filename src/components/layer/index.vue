@@ -19,6 +19,9 @@
   function close() {
     props.layer.show = false;
   }
+  defineExpose({
+    close,
+  });
 </script>
 
 <template>
