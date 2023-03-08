@@ -6,6 +6,8 @@ vue-admin-box 中后台开源框架基础模板
 
 升级 element-plus 等版本，优化兼容性
 
+预览地址 https://yuan1.github.io/vue-admin-box-template
+
 ## 介绍
 
 vue-admin-box是一个免费并且开源的中后台管理系统模板。
