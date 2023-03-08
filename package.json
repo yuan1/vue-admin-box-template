@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --mode=production",
+    "build:pages": "vite build --mode=production --base=/vue-admin-box-template/",
     "preview": "vite preview"
   },
   "dependencies": {

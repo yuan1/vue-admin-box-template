@@ -5,7 +5,6 @@ export function getData(data) {
   return request({
     url: '/table/list',
     method: 'post',
-    baseURL: '/mock',
     data
   })
 }
@@ -15,7 +14,6 @@ export function getCategory(data) {
   return request({
     url: '/table/category',
     method: 'post',
-    baseURL: '/mock',
     data
   })
 }
@@ -25,7 +23,6 @@ export function getTree(data) {
   return request({
     url: '/table/tree',
     method: 'post',
-    baseURL: '/mock',
     data
   })
 }
@@ -35,7 +32,6 @@ export function add(data) {
   return request({
     url: '/table/add',
     method: 'post',
-    baseURL: '/mock',
     data
   })
 }
@@ -45,7 +41,6 @@ export function update(data) {
   return request({
     url: '/table/update',
     method: 'post',
-    baseURL: '/mock',
     data
   })
 }
@@ -55,7 +50,6 @@ export function del(data) {
   return request({
     url: '/table/del',
     method: 'post',
-    baseURL: '/mock',
     data
   })
 }

@@ -5,7 +5,6 @@ export function loginApi(data) {
   return request({
     url: '/user/login',
     method: 'post',
-    baseURL: '/mock',
     data
   })
 }
@@ -15,7 +14,6 @@ export function getInfoApi(data) {
   return request({
     url: '/user/info',
     method: 'post',
-    baseURL: '/mock',
     data
   })
 }
@@ -25,7 +23,6 @@ export function loginOutApi() {
   return request({
     url: '/user/out',
     method: 'post',
-    baseURL: '/mock'
   })
 }
 
@@ -34,7 +31,6 @@ export function passwordChange(data) {
   return request({
     url: '/user/passwordChange',
     method: 'post',
-    baseURL: '/mock',
     data
   })
 }
